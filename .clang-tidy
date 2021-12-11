@@ -1,0 +1,21 @@
+---
+Checks: >
+  clang-diagnostic-*,
+  clang-analyzer-*,
+  modernize-*,
+  cppcoreguidelines-*,
+  performance-*,
+  readability-*,
+  bugprone-*,
+  cert-*,
+  hicpp-*,
+  misc-*,
+  -modernize-use-trailing-return-type,
+  -cppcoreguidelines-owning-memory,
+  -cppcoreguidelines-avoid-magic-numbers,
+  -readability-magic-numbers,
+
+WarningsAsErrors: ''
+HeaderFilterRegex: ''
+FormatStyle: none
+---
